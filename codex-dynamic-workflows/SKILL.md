@@ -1,13 +1,13 @@
 ---
 name: codex-dynamic-workflows
-description: Plan and run Codex-native dynamic workflows for complex tasks that benefit from explicit orchestration, goal mode, subagents or simulated work packets, approval gates, integration, verification, and reusable workflow artifacts. Use when the user invokes this skill, asks for a swarm, subagents, parallel agents, a dynamic workflow, a large migration or audit, multi-track research plus implementation, or Claude Code-style workflow orchestration in Codex.
+description: Plan and run AI-agent dynamic workflows for complex tasks that benefit from explicit orchestration, goal mode, subagents or simulated work packets, approval gates, integration, verification, and reusable workflow artifacts. Use when the user invokes this skill, asks for a swarm, subagents, parallel agents, a dynamic workflow, a large migration or audit, multi-track research plus implementation, or Claude Code-style workflow orchestration.
 ---
 
-# Codex Dynamic Workflows
+# AI Agent Dynamic Workflows
 
-Use this skill to turn a large task into a supervised Codex workflow: draft an orchestration artifact, enter goal mode when sustained execution is requested, delegate disjoint work to subagents when available, integrate results, verify the outcome, and save reusable workflow artifacts.
+Use this skill to turn a large task into a supervised AI-agent workflow: draft an orchestration artifact, enter goal mode when sustained execution is requested, delegate disjoint work to subagents when available, integrate results, verify the outcome, and save reusable workflow artifacts.
 
-This skill is Codex-native. Do not claim that a local script can call Codex subagent tools unless the current environment exposes such a runner. When no programmable runner exists, create a human-readable orchestration script and operate it through the available Codex tools.
+This skill works in agents that support skills. Do not claim that a local script can call subagent tools unless the current environment exposes such a runner. When no programmable runner exists, create a human-readable orchestration script and operate it through the available agent tools.
 
 ## Decision Rule
 
@@ -57,7 +57,7 @@ Use `scripts/new_workflow.py` to scaffold this structure:
 python3 /path/to/codex-dynamic-workflows/scripts/new_workflow.py "Task title"
 ```
 
-Keep `plan.md` human-readable. Use `state.json` for status, packet IDs, approval state, and verification state. Use `orchestration.md` as the executable mental model: the sequence Codex will follow, the branching rules, and the packet prompts.
+Keep `plan.md` human-readable. Use `state.json` for status, packet IDs, approval state, and verification state. Use `orchestration.md` as the executable mental model: the sequence the agent will follow, the branching rules, and the packet prompts.
 
 ## Orchestration Plan
 

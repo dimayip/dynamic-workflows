@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a Codex dynamic workflow artifact directory."""
+"""Create an AI-agent dynamic workflow artifact directory."""
 
 from __future__ import annotations
 

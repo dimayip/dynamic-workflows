@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check that a Codex dynamic workflow artifact is complete enough to audit."""
+"""Check that an AI-agent dynamic workflow artifact is complete enough to audit."""
 
 from __future__ import annotations
 
