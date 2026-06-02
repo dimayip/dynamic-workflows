@@ -1,0 +1,38 @@
+- [总览](/)
+- **方案一：弱约束 SOP**
+  - [SKILL 主文档](codex-dynamic-workflows/SKILL.md)
+  - 参考文档
+    - [Plan Schema](codex-dynamic-workflows/references/plan-schema.md)
+    - [Risk Gates](codex-dynamic-workflows/references/risk-gates.md)
+    - [Validation Examples](codex-dynamic-workflows/references/validation-examples.md)
+- **方案二：JSON DSL + Python 引擎**
+  - [概览 README](agent-workflows/README.md)
+  - [设计文档总览](agent-workflows/DESIGN.md)
+  - [架构决策 ADR](agent-workflows/ADR.md)
+  - [实施检查清单](agent-workflows/IMPL-CHECKLIST.md)
+  - Specs 规范
+    - [01 DSL 规范](agent-workflows/specs/01-dsl.md)
+    - [02 Python 引擎](agent-workflows/specs/02-engine.md)
+    - [03 CLI 适配层](agent-workflows/specs/03-cli-adapter.md)
+    - [04 并发与限流](agent-workflows/specs/04-concurrency.md)
+    - [05 状态管理](agent-workflows/specs/05-state.md)
+    - [06 错误与审批](agent-workflows/specs/06-error-approval.md)
+    - [07 安全模型](agent-workflows/specs/07-security.md)
+    - [08 可观测性](agent-workflows/specs/08-observability.md)
+    - [09 SKILL 协议](agent-workflows/specs/09-skill-protocol.md)
+    - [10 CLI 入口](agent-workflows/specs/10-cli-entry.md)
+    - [11 配置管理](agent-workflows/specs/11-config.md)
+    - [12 目录布局](agent-workflows/specs/12-layout.md)
+    - [13 模板示例](agent-workflows/specs/13-templates.md)
+- **方案三：TypeScript + isolated-vm 沙箱**
+  - [概览 README](open-workflows/README.md)
+  - [设计文档总览](open-workflows/DESIGN.md)
+  - [架构决策 ADR](open-workflows/ADR.md)
+  - [实施检查清单](open-workflows/IMPL-CHECKLIST.md)
+  - Specs 规范
+    - [01 TS 脚本规范](open-workflows/specs/01-script-spec.md)
+    - [02 Runtime 沙箱](open-workflows/specs/02-runtime-sandbox.md)
+    - [03 10层防御流水线](open-workflows/specs/03-validation-pipeline.md)
+    - [04 CLI 适配](open-workflows/specs/04-cli-subagent.md)
+    - [05 状态管理](open-workflows/specs/05-state.md)
+    - [06 SKILL 协议 + CLI](open-workflows/specs/06-protocol.md)

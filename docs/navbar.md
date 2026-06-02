@@ -1,0 +1,5 @@
+- [总览](/)
+- [方案一：弱约束 SOP](codex-dynamic-workflows/SKILL.md)
+- [方案二：DSL + Python](agent-workflows/README.md)
+- [方案三：TS 沙箱](open-workflows/README.md)
+- [GitHub](https://github.com/dimayip/dynamic-workflows)
