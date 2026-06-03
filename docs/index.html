@@ -9,10 +9,13 @@
 </head>
 <body>
   <div id="app"></div>
+  <!-- 多 repo 共用自定义域名时，base 设为 /repo-name/ -->
+  <base href="/dynamic-workflows/">
   <script>
     window.$docsify = {
       name: 'AI Agent 动态工作流编排',
-      nameLink: '#/',
+      nameLink: '#/dynamic-workflows/',
+      basePath: '/dynamic-workflows/',
       loadSidebar: 'sidebar.md',
       loadNavbar: 'navbar.md',
       subMaxLevel: 3,
